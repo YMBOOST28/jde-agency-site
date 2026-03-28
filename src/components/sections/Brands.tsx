@@ -66,8 +66,8 @@ export default function Brands() {
                   draggable={false}
                   className="max-h-10 max-w-[140px] w-auto object-contain select-none"
                   style={{
-                    filter: 'brightness(1.05)',
-                    opacity: 0.60,
+                    filter: 'grayscale(100%) brightness(5)',
+                    opacity: 0.42,
                     userSelect: 'none',
                     pointerEvents: 'none',
                   }}
@@ -88,8 +88,8 @@ export default function Brands() {
                     draggable={false}
                     className="max-h-10 max-w-[140px] w-auto object-contain select-none"
                     style={{
-                      filter: 'brightness(1.05)',
-                      opacity: 0.60,
+                      filter: 'grayscale(100%) brightness(5)',
+                      opacity: 0.42,
                       userSelect: 'none',
                       pointerEvents: 'none',
                     }}

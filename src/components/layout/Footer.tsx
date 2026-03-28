@@ -1,3 +1,5 @@
+import { Instagram } from 'lucide-react'
+
 const footerLinks = [
   { label: 'Services', href: '#services' },
   { label: 'Méthode', href: '#methode' },
@@ -47,7 +49,15 @@ export default function Footer() {
             >
               jdeagency.live@gmail.com
             </a>
-            <p className="text-[11px] text-white/18 mt-1 tracking-wide">@jde.agency</p>
+            <a
+              href="https://www.instagram.com/jde.agency/?utm_source=ig_web_button_share_sheet"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-end gap-1.5 text-[11px] text-white/18 hover:text-jade/70 mt-1 tracking-wide transition-colors duration-200"
+            >
+              <Instagram size={11} strokeWidth={1.5} />
+              @jde.agency
+            </a>
           </div>
         </div>
 

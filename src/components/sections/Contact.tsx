@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useInView } from '@/hooks/useInView'
-import { CheckCircle2, Lock } from 'lucide-react'
+import { CheckCircle2, Lock, Instagram } from 'lucide-react'
 
 interface FormData {
   name: string
@@ -98,10 +98,20 @@ export default function Contact() {
             <h2 className="text-white text-[clamp(1.8rem,4vw,3rem)] font-extralight leading-tight tracking-tight mb-5">
               Votre prochain live<br />commence ici.
             </h2>
-            <p className="text-white/28 text-[15px] font-light leading-relaxed mb-10 max-w-sm">
+            <p className="text-white/28 text-[15px] font-light leading-relaxed mb-5 max-w-sm">
               Dites-nous qui vous êtes. On analyse votre marque et on revient
               vers vous sous 24h avec un retour honnête.
             </p>
+
+            <a
+              href="https://www.instagram.com/jde.agency/?utm_source=ig_web_button_share_sheet"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-[11.5px] text-white/22 hover:text-jade/70 tracking-wide transition-colors duration-200 mb-10"
+            >
+              <Instagram size={12} strokeWidth={1.5} />
+              @jde.agency
+            </a>
 
             {/* Pricing card — locked */}
             <div className="relative border border-white/8 rounded-xl overflow-hidden">

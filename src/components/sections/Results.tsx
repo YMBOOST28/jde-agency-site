@@ -115,7 +115,7 @@ export default function Results() {
                   >
                     <div className="flex items-center justify-between mb-1.5">
                       <div className="flex items-center gap-3">
-                        <span className="text-[12px] text-smoke/50 font-light w-24 shrink-0">
+                        <span className="text-[12px] text-smoke/50 font-light w-[72px] sm:w-24 shrink-0">
                           {item.month}
                         </span>
                         {item.active && (
@@ -128,7 +128,7 @@ export default function Results() {
                         <span className="text-[11px] text-smoke/40 font-light">
                           {item.orders} cmd
                         </span>
-                        <span className="text-[14px] font-medium text-obsidian tracking-tight w-24 text-right">
+                        <span className="text-[14px] font-medium text-obsidian tracking-tight shrink-0 text-right">
                           {item.revenue}
                         </span>
                       </div>

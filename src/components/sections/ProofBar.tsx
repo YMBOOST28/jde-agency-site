@@ -20,7 +20,7 @@ export default function ProofBar() {
               key={i}
               className={`text-center transition-all duration-700 ${
                 inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
-              }`}
+              } ${i === stats.length - 1 ? 'col-span-2 sm:col-span-1' : ''}`}
               style={{ transitionDelay: `${i * 90}ms` }}
             >
               <div className="text-[clamp(1.75rem,4vw,2.5rem)] font-extralight text-jade-deep tracking-tight leading-none">

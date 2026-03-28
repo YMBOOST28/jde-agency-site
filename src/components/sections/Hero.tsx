@@ -20,7 +20,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center bg-obsidian overflow-hidden"
+      className="relative min-h-[100dvh] flex items-center bg-obsidian overflow-hidden"
     >
       {/* Background radial glow */}
       <div
@@ -32,7 +32,7 @@ export default function Hero() {
       />
 
       {/* Content grid */}
-      <div className="relative w-full max-w-6xl mx-auto px-6 md:px-8 pt-24 pb-16 lg:pt-0 lg:pb-0 lg:min-h-screen lg:flex lg:items-center">
+      <div className="relative w-full max-w-6xl mx-auto px-6 md:px-8 pt-24 pb-16 lg:pt-0 lg:pb-0 lg:min-h-[100dvh] lg:flex lg:items-center [@media(max-width:1023px)_and_(orientation:landscape)]:pt-16 [@media(max-width:1023px)_and_(orientation:landscape)]:pb-6">
         <div className="w-full grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-10 lg:gap-16 xl:gap-24 items-center">
 
           {/* ── LEFT: Text content ── */}
@@ -91,8 +91,8 @@ export default function Hero() {
               ))}
             </div>
 
-            {/* Mobile: phone mockup below text — no 3D */}
-            <div className="lg:hidden mt-12 flex justify-center">
+            {/* Mobile: phone mockup below text — no 3D, hidden in landscape */}
+            <div className="lg:hidden [@media(max-width:1023px)_and_(orientation:landscape)]:hidden mt-12 flex justify-center">
               <PhoneMockup
                 videoSrc={VIDEO_SRC}
                 posterSrc={VIDEO_POSTER}
