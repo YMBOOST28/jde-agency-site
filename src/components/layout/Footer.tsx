@@ -42,7 +42,7 @@ export default function Footer() {
           </nav>
 
           {/* Contact */}
-          <div className="text-center md:text-right">
+          <div className="flex flex-col items-center md:items-end gap-1.5">
             <a
               href="mailto:jdeagency.live@gmail.com"
               className="text-xs text-jade/65 hover:text-jade transition-colors tracking-wide"
@@ -53,7 +53,7 @@ export default function Footer() {
               href="https://www.instagram.com/jde.agency/?utm_source=ig_web_button_share_sheet"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-end gap-1.5 text-[11px] text-white/18 hover:text-jade/70 mt-1 tracking-wide transition-colors duration-200"
+              className="flex items-center gap-1.5 text-[11px] text-white/18 hover:text-jade/70 tracking-wide transition-colors duration-200"
             >
               <AtSign size={11} strokeWidth={1.5} />
               @jde.agency
