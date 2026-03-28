@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useInView } from '@/hooks/useInView'
-import { CheckCircle2, Lock, Instagram } from 'lucide-react'
+import { CheckCircle2, Lock, AtSign } from 'lucide-react'
 
 interface FormData {
   name: string
@@ -109,7 +109,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-[11.5px] text-white/22 hover:text-jade/70 tracking-wide transition-colors duration-200 mb-10"
             >
-              <Instagram size={12} strokeWidth={1.5} />
+              <AtSign size={12} strokeWidth={1.5} />
               @jde.agency
             </a>
 

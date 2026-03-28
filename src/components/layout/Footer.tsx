@@ -1,4 +1,4 @@
-import { Instagram } from 'lucide-react'
+import { AtSign } from 'lucide-react'
 
 const footerLinks = [
   { label: 'Services', href: '#services' },
@@ -55,7 +55,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-end gap-1.5 text-[11px] text-white/18 hover:text-jade/70 mt-1 tracking-wide transition-colors duration-200"
             >
-              <Instagram size={11} strokeWidth={1.5} />
+              <AtSign size={11} strokeWidth={1.5} />
               @jde.agency
             </a>
           </div>
